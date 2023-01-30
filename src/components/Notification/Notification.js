@@ -4,9 +4,7 @@ import chess from '../../assets/images/image-chess.webp'
 
 const Notification = props => {
 	return (
-		<div
-			className={`card__item ${!props.notification.read ? 'item-highlight' : ''}`}
-			onClick={() => props.toggleRead()}>
+		<div className={`card__item ${!props.notification.read ? 'item-highlight' : ''}`} onClick={props.toggleRead}>
 			<figure className='card__item-figure'>
 				<img className='card__item-social-img' src={images.get(props.notification.img)} alt='person' />
 			</figure>
