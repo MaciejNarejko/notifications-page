@@ -1,0 +1,98 @@
+@use '../../sassStyles/_variables.scss' as *;
+
+.card {
+	&__item {
+		display: flex;
+		margin-bottom: 1em;
+		height: auto;
+		border-radius: 0.4rem;
+		transition: transform 0.1s ease-in;
+
+		&:hover {
+			transform: scale(1.01);
+		}
+
+		&-figure {
+			margin: 1.5em 1.5em 0em 1.5em;
+		}
+
+		&-social-img {
+			width: 40px;
+			height: 40px;
+		}
+
+		&-content {
+			display: flex;
+			justify-content: space-between;
+			margin: 1em 1em 0em 0em;
+			width: 100%;
+			font-size: 0.9rem;
+			line-height: 1.2rem;
+		}
+
+		&-sender {
+			color: $c-vdark-blue;
+			transition: color ease-in-out 0.3s;
+		}
+
+		&-link {
+			text-decoration: none;
+			color: $c-dark-grayish-blue;
+			transition: color ease-in-out 0.3s;
+		}
+
+		&-link--group {
+			color: $c-dark-blue;
+		}
+
+		&-status {
+			display: inline-block;
+			margin-left: 0.4em;
+			width: 0.6em;
+			height: 0.6em;
+			background-color: $c-rose;
+			border-radius: 0.5em;
+			box-shadow: 0 0 0.3em $c-rose;
+		}
+
+		&-time {
+			margin-top: 0em;
+			font-size: 0.9em;
+			color: $c-grayish-blue;
+		}
+
+		&-text {
+			padding: 1em;
+			color: $c-dark-grayish-blue;
+			border: 1px solid $c-light-grayish-blue2;
+			border-radius: 0.3rem;
+			transition: background-color ease-in-out 0.3s;
+
+			&:hover {
+				background-color: $c-light-grayish-blue1;
+				cursor: pointer;
+			}
+		}
+
+		&-img {
+			width: 40px;
+			height: 40px;
+			margin-left: 1em;
+			border: solid 0.1em transparent;
+			border-radius: 9px;
+			transition: background-color ease-in-out 0.3s;
+
+			&:hover {
+				cursor: pointer;
+				border-color: $c-vlight-grayish-blue;
+			}
+		}
+	}
+}
+.item-highlight {
+	background-color: $c-vlight-grayish-blue;
+}
+
+.text-bold {
+	font-weight: 800;
+}

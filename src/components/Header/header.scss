@@ -1,0 +1,39 @@
+@use '../../sassStyles/_variables.scss' as *;
+
+.card {
+	&__header {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 1em;
+		font-size: 1.1em;
+	}
+
+	&__title {
+		display: flex;
+		margin-block-start: 10px;
+		line-height: 1.4em;
+		color: $c-vdark-blue;
+	}
+
+	&__badge {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		align-self: center;
+		height: 24px;
+		width: 31px;
+		margin-left: 0.5em;
+		font-size: 0.8em;
+		background: $c-dark-blue;
+		color: $c-white;
+		border-radius: 0.3em;
+	}
+
+	&__button {
+		color: $c-dark-grayish-blue;
+		background-color: initial;
+		border: none;
+		font-size: 1.4em;
+		transition: color ease-in-out 0.3s;
+	}
+}
