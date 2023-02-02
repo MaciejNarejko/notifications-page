@@ -16,7 +16,7 @@
   </h3>
 </div>
 
-<img src="./public/project-preview.png"></img>
+<img src="./public/project-preview.jpg"></img>
 
 ## About the Project
 
