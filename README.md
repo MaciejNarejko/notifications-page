@@ -6,7 +6,7 @@
       Live
     </a>
     | 
-    <a href="#">
+    <a href="https://www.frontendmentor.io/solutions/notifications-page-stack-react-scss-bem-5KqD_Pg0Bc">
       Solution
     </a>
     | 
@@ -32,7 +32,7 @@ Project assumptions:
 
 Additional assumptions:
 
-- Dynamic Page Title with the number of unread notifications
+- Dynamic page title with the number of unread notifications
 - Mark a notification on click as read/unread and update the visual state of the unread notifications
 
 This is a solution to the [Notifications page on Frontend Mentor](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC).
